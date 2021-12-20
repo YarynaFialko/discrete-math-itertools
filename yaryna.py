@@ -1,3 +1,8 @@
+def repeat(value):
+    while True:
+        yield value
+
+
 def count(start=0, step=1):
     i = 0
     while True:
