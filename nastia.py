@@ -1,4 +1,4 @@
-	def combinations(r, n):
+def combinations(r, n):
     if r>n:
         return
     ourange=[i for i in range(r)]
