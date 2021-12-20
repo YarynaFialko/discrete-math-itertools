@@ -1,4 +1,3 @@
-
 def cycle(iterable):
     while True:
         for element in iterable:
