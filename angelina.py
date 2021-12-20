@@ -1,14 +1,4 @@
 def product(*args):
-    """
-    Return the cartesian product of input iterables. 
-    >>> list(product('ABCD', 'xy', '12'))
-    [('A', 'x', '1'), ('A', 'x', '2'), ('A', 'y', '1'),\
- ('A', 'y', '2'), ('B', 'x', '1'), ('B', 'x', '2'),\
- ('B', 'y', '1'), ('B', 'y', '2'), ('C', 'x', '1'),\
- ('C', 'x', '2'), ('C', 'y', '1'), ('C', 'y', '2'),\
- ('D', 'x', '1'), ('D', 'x', '2'), ('D', 'y', '1'),\
- ('D', 'y', '2')]
-    """
     lst = []
     for i in args:
         lst.append(tuple(i))
